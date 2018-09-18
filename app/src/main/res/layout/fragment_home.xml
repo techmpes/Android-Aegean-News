@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mpes.aegeannews.fragment.HomeFragment">
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="407dp" >
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="362dp"
+        android:src="@drawable/kr4isd"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Aegean's"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/textView2"
+        android:typeface="sans"
+        android:paddingTop="40dp"
+        android:textSize="56sp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="?attr/actionModeSplitBackground"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal|bold" />
+
+
+</FrameLayout>

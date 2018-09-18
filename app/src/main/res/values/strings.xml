@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AegeanNews</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Samos News</item>
+        <item>Suros News</item>
+        <item>Rodos News</item>
+        <item>Lesvos News</item>
+        <item>Limnos News</item>
+    </string-array>
+
+    <string name="feedback">Feedback</string>
+    <string name="email">Email</string>
+
+    <string name="pull_to_refresh">Pull to refresh</string>
+    <string name="release_to_refresh">Release to refresh</string>
+    <string name="refreshing">Refreshing…</string>
+    <string name="last_updated">Updated: %1$s</string>
+
+</resources>
